@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Outfit:wght@100;400&family=Overpass:wght@600&family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Outfit:wght@100;400&family=Overpass:wght@600&family=Red+Hat+Display:wght@300;500&display=swap');
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main{
+    width: 80%;
+    border: transparent solid 2px;
+    margin: 50px auto;
+    min-height: 450px;
+    border-radius: 5%;
+    padding: 0px;
+    background-image: url('images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+@media screen and (min-width:536px){
+    main{
+        width: 75%;
+    }
+}
+@media screen and (min-width:571px){
+    main{
+        width: 70%;
+    }
+}
+@media screen and (min-width:611px){
+    main{
+        width: 65%;
+    }
+}
+@media screen and (min-width:656px){
+    main{
+        width: 60%;
+    }
+}
+@media screen and (min-width:710px){
+    main{
+        width: 55%;
+    }
+}
+@media screen and (min-width:773px){
+    main{
+        width: 50%;
+    }
+}
+@media screen and (min-width:848px){
+    main{
+        width: 45%;
+    }
+}
+@media screen and (min-width:941px){
+    main{
+        width: 40%;
+    }
+}
+@media screen and (min-width:1056px){
+    main{
+        width: 35%;
+    }
+}
+@media screen and (min-width:1205px){
+    main{
+        width: 30%;
+    }
+}
+@media screen and (min-width:1403px){
+    main{
+        width: 25%;
+    }
+}
+@media screen and (min-width:1680px){
+    main{
+        width: 20%;
+    }
+}
+@media screen and (max-width:319px){
+    main{
+        width: 100%;
+    }
+}
+.a{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500px;
+
+}
+h3{
+    color: black;
+    text-align: center;
+    margin-top: 60%;
+}
+p:first-of-type:not(#ap){
+    text-align: center;
+    margin: 0 15px 0 15px;
+    opacity: 0.7;
+}
+div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin: 20px auto 0 auto;
+    padding: 7px;
+    border-radius: 14px;
+    gap: 10%;
+    background-color: hsla(230, 20%, 76%, 0.205);
+
+}
+div p:last-child{
+    position: relative;
+    top: 35%;
+}
+div p:first-child{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    
+
+}
+div p:last-child{
+    text-decoration: underline;
+    color: rgb(16, 16, 104);
+    font-weight: bold;
+}
+div p:last-child:hover{
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+}
+div p:last-child:active{
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:first-of-type:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+button:first-of-type:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+button:nth-of-type(2):hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color:hsla(230, 20%, 76%, 0.5) ;  
+    
+}
+button:nth-of-type(2):active{
+    opacity: 1;
+    cursor: pointer;
+    background-color:hsla(230, 20%, 76%, 0.5) ;  
+    
+}
+div #a{
+    font-weight: bold;  
+}
+div #b{
+    opacity: 0.7;
+}
+button{
+    width: 90%;
+    margin: 20px auto 0 auto;
+    padding: 15px 40px;
+    border-radius: 14px;
+    position: relative;
+    left: 5% ;
+    border: none;
+}
+button:first-of-type{
+    background-color: rgb(16, 16, 104) ;
+    color: white;
+}
+button:nth-of-type(2){
+    background-color: hsla(230, 20%, 76%, 0.205) ;
+    opacity: 0.7;
+}
+#c{
+    margin: 10px auto;
+}
